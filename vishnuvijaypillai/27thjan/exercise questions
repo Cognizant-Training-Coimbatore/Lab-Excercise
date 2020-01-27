@@ -1,0 +1,29 @@
+1. Write a program which accepts only positive number from the user. Else, system to generate appropriate error message using exception handling
+
+2.Input two numbers from the user and display the result as number1/number2. In case, if the second number is 0, display appropriate error message using exception handling
+
+3. Write a program which displays the number of characters in a given string. In case, if the string is NULL, display appropriate error message using exception handling by NULLPOINTEREXCEPTION
+
+4. Refer the ex2, store the result into a array for 5 numbers. Display error if the array index is invalid or division by error. Add finally block to the code
+
+5. Write a program which accepts marks from the user and displays "Invalid mark entered" in case, if the user enters marks < 0 using throw keyword
+
+6. Demonstrate throws keywords with example
+
+7. Write a custom exceptions which accepts only the value between 101 to 200 for an employee code. Else, system to reject the input
+
+8. Write a program to input the following from user
+Enter yourname :  <<enter your name>>
+Enter your address : <<your address>>
+Enter your aadhar card number <<aadhar number>>
+Do you want to save?(1/0)
+If the user enters 1, System to display "Record saved.....exiting......." and this records needs to be stored in a Employee.txt.
+If the user enters 0, System to display "Record not saved... and exiting." 
+If the user enters any other value, system to throw an error message "Invalid choice"
+
+9. Enter the following in a "books.CSV" file 
+101,c,E.Balaguruswamy, BPB, 110
+102, C++, Kanikar, Tech mcgraw hill, 200
+103, Java made easy, Karthik, Vijaya, 300
+
+10. Read the books.csv and display the content in console
