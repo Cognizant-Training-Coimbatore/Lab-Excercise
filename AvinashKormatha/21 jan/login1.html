@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+	<script>  
+function validateemail()  
+{  
+var x=document.form1.email.value;  
+var at=x.indexOf("@");  
+var dot=x.lastIndexOf(".");  
+if (at<1 || dot<at+2 || dot+2>=x.length){  
+  alert("Please enter a valid e-mail address \n atpostion:"+at+"\n dotposition:"+dot);  
+  return false;  
+  }  
+}  
+</script>  
+	<form method="post" action="#" name="form1">
+	<table>
+      <tr>
+      	<td>First Name:</td>
+      	<td><input type="text" placeholder="firstname" required=""></td>
+      </tr>
+     <tr>
+     <td> Last Name:</td>
+     <td><input type="text" placeholder="lastname" required=""></td>
+     </tr>
+     <tr>
+     <td> Password:</td>
+     <td><input type="password" placeholder="*******" required=""></td>
+     </tr>
+     <tr>
+     <td> Confirm Password:</td>
+     <td><input type="password" placeholder="*******" required=""></td>
+     </tr>
+     <tr>
+     <td> E-Mail:</td>
+     <td><input  name ="email" class="mail" type="e-mail" placeholder="abc@gmail.com" required></td>
+     </tr>
+     <tr><td>  <input type="button" value="submit" onclick="validateemail()"></td></tr>
+   </table>
+</form>
+
+</body>
+</html>
