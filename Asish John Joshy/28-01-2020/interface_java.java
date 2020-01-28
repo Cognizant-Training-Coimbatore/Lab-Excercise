@@ -1,6 +1,7 @@
 package demo;
 interface myinterface
 {
+	//int x=20;values declared here are static
 	void add();
 	void display();
 }
