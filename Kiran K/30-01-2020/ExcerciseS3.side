@@ -1,0 +1,71 @@
+{
+  "id": "1a837554-2923-4f16-b1ea-eac2872a10f2",
+  "version": "2.0",
+  "name": "Excercise2",
+  "url": " http://examples.codecharge.com/Store/Default.php",
+  "tests": [{
+    "id": "280172d7-86be-4951-b538-867937200ec5",
+    "name": "test2",
+    "commands": [{
+      "id": "8721e84a-b2ea-4872-9706-c136448646f7",
+      "comment": "",
+      "command": "open",
+      "target": "http://examples.codecharge.com/Store/Default.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6f9fdab-8664-489c-be0d-64b1816fc230",
+      "comment": "",
+      "command": "click",
+      "target": "name=DoSearch",
+      "targets": [
+        ["name=DoSearch", "name"],
+        ["css=.Bottom input", "css:finder"],
+        ["xpath=//input[@name='DoSearch']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "531371af-6815-45a3-b26d-9897696c50c4",
+      "comment": "",
+      "command": "click",
+      "target": "name=category_id",
+      "targets": [
+        ["name=category_id", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='category_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "724c6b99-8111-4d36-8305-876b773b1ba3",
+      "comment": "",
+      "command": "select",
+      "target": "name=category_id",
+      "targets": [],
+      "value": "label=Databases"
+    }, {
+      "id": "73d1ef2f-1872-47e7-846d-21729edebebc",
+      "comment": "",
+      "command": "click",
+      "target": "name=category_id",
+      "targets": [
+        ["name=category_id", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='category_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9cbc8d9c-b882-46cb-96b1-d427c8333c06",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["280172d7-86be-4951-b538-867937200ec5"]
+  }],
+  "urls": [],
+  "plugins": []
+}

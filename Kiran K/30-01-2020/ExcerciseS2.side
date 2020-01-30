@@ -1,0 +1,60 @@
+{
+  "id": "3838b9b4-272d-45a1-a44e-c4b0c0d7fa65",
+  "version": "2.0",
+  "name": "Excercise",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "d224d54e-c36b-4744-8d78-230fbeeddc2b",
+    "name": "test1",
+    "commands": [{
+      "id": "c434601d-f3a3-491a-8b93-90cb9bc7304a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b488b574-8c44-4591-be39-240cb7cb4558",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "2ddf73f7-88cf-43ae-a499-a9180d3fd387",
+      "comment": "",
+      "command": "echo",
+      "target": "${x}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e07480b5-6a3e-43ef-a1e0-ead67a7075a7",
+    "name": "test3",
+    "commands": [{
+      "id": "a33e6d12-2058-4a03-88c1-109c6f404c62",
+      "comment": "",
+      "command": "store",
+      "target": "Kiran",
+      "targets": [],
+      "value": "myname"
+    }, {
+      "id": "73e7f886-9cc4-4272-99d8-a0ac871839fa",
+      "comment": "",
+      "command": "echo",
+      "target": "${myname}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dd4fcab3-c719-4454-b6c0-ba79d82099e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d224d54e-c36b-4744-8d78-230fbeeddc2b"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
