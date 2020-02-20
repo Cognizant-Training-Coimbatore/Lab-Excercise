@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="Test2">
+  <group>
+  <run>
+  <include name="regressiontests"/>
+  </run>
+  </group>
+    <classes>
+      <class name="testngPackage.groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
