@@ -1,5 +1,0 @@
-Anagha(844394): Contact Us(POM), Account(POM, Test Case), Brand(Keyword Driven)
-Rithwik(844331): Home Page(POM), Men's Section(POM, Keyword Driven)
-Shahir(844297): Contact Us(Data Driven, Test Case), Sports(Keyword Driven, POM, Test Case), End to End Integration in Cucumber
-Simna(844340): All Word Documentations, Store Finder(POM, Test Case), Career(POM, Test Case)
-Sreejith(844448): Search(POM, Test Case), Register User(Data Driven), Sign Up(Data Driven), Guest user(Data Driven)
